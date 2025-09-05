@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "title": "Boys Cotton T-Shirt",
+    "price": "14.99",
+    "description": "Soft and breathable cotton t-shirt for everyday wear. Designed with playful colors and durable stitching for active kids.",
+    "images": ["/kid1.jpg", "/kid2.jpeg"]
+  },
+  {
+    "id": "2",
+    "title": "Girls Floral Dress",
+    "price": "24.99",
+    "description": "A lightweight, flowy dress with a bright floral print. Perfect for parties, outings, and casual wear during warm days.",
+    "images": ["/kid3.webp", "/kid4.jpg"]
+  },
+  {
+    "id": "3",
+    "title": "Unisex Hoodie",
+    "price": "29.99",
+    "description": "Comfortable fleece hoodie that keeps kids warm and cozy. Features a front pocket and adjustable hood.",
+    "images": ["/kid5.webp"]
+  },
+  {
+    "id": "4",
+    "title": "Denim Jeans",
+    "price": "19.99",
+    "description": "Classic kids’ denim jeans with stretch fabric for extra comfort. Durable enough for playtime and stylish for outings.",
+    "images": ["/kid5.webp"]
+  },
+  {
+    "id": "5",
+    "title": "Striped Polo Shirt",
+    "price": "16.99",
+    "description": "Trendy polo shirt with colorful stripes. Ideal for both school and casual wear with a soft fabric finish.",
+    "images": ["/kid1.jpg", "/kid2.jpeg"]
+  },
+  {
+    "id": "6",
+    "title": "Girls Party Skirt",
+    "price": "22.99",
+    "description": "A sparkly layered skirt that adds charm to any occasion. Lightweight, fun, and perfect for birthdays and events.",
+    "images": ["/kid3.webp", "/kid4.jpg"]
+  },
+  {
+    "id": "7",
+    "title": "Kids Sweatpants",
+    "price": "18.99",
+    "description": "Comfort-fit sweatpants for kids, made with stretchable fabric. Great for school, playtime, and lounging at home.",
+    "images": ["/kid5.webp"]
+  },
+  {
+    "id": "8",
+    "title": "Winter Jacket",
+    "price": "39.99",
+    "description": "Insulated winter jacket to keep kids warm in cold weather. Features zip closure, hood, and side pockets.",
+    "images": ["/kid5.webp"]
+  },
+  {
+    "id": "9",
+    "title": "Boys Shorts Pack",
+    "price": "21.99",
+    "description": "Set of comfortable cotton shorts in assorted colors. Designed for all-day play with an elastic waistband.",
+    "images": ["/kid5.webp"]
+  },
+  {
+    "id": "10",
+    "title": "Girls Leggings",
+    "price": "15.99",
+    "description": "Stretchable leggings for school or play. Made from soft fabric that’s easy to wash and comfortable to wear.",
+    "images": ["/kid5.webp"]
+  },
+  {
+    "id": "11",
+    "title": "Kids Pajama Set",
+    "price": "25.99",
+    "description": "Cozy two-piece pajama set with fun prints. Designed for maximum comfort to help kids sleep peacefully.",
+    "images": ["/kid5.webp"]
+  },
+  {
+    "id": "12",
+    "title": "Unisex Raincoat",
+    "price": "27.99",
+    "description": "Lightweight raincoat with waterproof material and hood. Keeps kids dry while allowing free movement.",
+    "images": ["/kid5.webp"]
+  }
+]
