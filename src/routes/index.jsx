@@ -10,11 +10,11 @@ import ProductDetailsPage from '../pages/ProductDetailsPage'
 const routes = [
   {
     path: '/',
-  element: <HomeLayout />,
+    element: <HomeLayout />,
     children: [
       { index: true, element: <Home /> },
       { path: 'about', element: <About /> },
-  { path: 'product/:id', element: <ProductDetailsPage /> },
+      { path: 'product/:id', element: <ProductDetailsPage /> },
       {
         path: 'app',
         element: <DashboardLayout />,

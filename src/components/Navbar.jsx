@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import { useTheme } from '../contexts/ThemeContext'
 import { useEffect, useState } from 'react'
 import CartSidebar from './CartSidebar'
+import CategoryDropdown from './CategoryDropdown'
+import categories from '../data/categories.json'
 import { useRef } from 'react'
 
 export default function Navbar() {
@@ -12,6 +14,8 @@ export default function Navbar() {
   const [userData, setUserData] = useState(null)
   const [accountOpen, setAccountOpen] = useState(false)
   const accountRef = useRef(null)
+
+  // categories are loaded from src/data/categories.json
 
   useEffect(() => {
     try {
@@ -63,11 +67,9 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-2">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-sm">Categories</label>
-            <ul tabIndex={0} className="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>All</a></li>
-              <li><a>New</a></li>
-              <li><a>Popular</a></li>
-            </ul>
+            <div tabIndex={0} className="dropdown-content p-2 shadow bg-base-100 rounded-box">
+              <CategoryDropdown categories={categories} />
+            </div>
           </div>
 
           <div className="form-control">
@@ -115,7 +117,7 @@ export default function Navbar() {
             </button>
 
             {accountOpen && (
-              <div className="absolute right-0 mt-2 w-48 bg-base-100 shadow-md rounded-md p-2">
+              <div className="absolute right-0 mt-2 w-48 bg-base-100 shadow-md rounded-md p-2 z-50">
                 {userData ? (
                   <ul className="menu p-0">
                     <li><Link to="/account/profile" onClick={() => setAccountOpen(false)}>Profile</Link></li>

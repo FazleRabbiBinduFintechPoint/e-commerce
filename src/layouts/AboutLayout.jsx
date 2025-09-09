@@ -19,7 +19,7 @@ function useIsMobile() {
 
 export default function HomeLayout() {
   const location = useLocation()
-  const isHomepage = location.pathname === '/'
+  const isProductPage = location.pathname.startsWith('/product/')
   const isMobile = useIsMobile()
 
   return (
@@ -27,7 +27,7 @@ export default function HomeLayout() {
       <Navbar />
       <main className="flex-1">
   <div className="max-w-6xl mx-auto px-0">
-          {isHomepage && (
+          {!isProductPage && (
             <HeroSection title="Welcome to Project Blanco" subtitle="A minimal starter with Tailwind & daisyUI" />
           )}
           <Outlet />

@@ -84,7 +84,7 @@ export default function Home() {
   }
 
   return (
-    <section className="mt-8 px-6">
+    <section className="mt-8 px-0">
       <h3 className="text-xl font-semibold mb-4">Featured products</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {visible.map((p) => (

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "men",
+    "label": "Men",
+    "to": "/products/men",
+    "children": [
+      {
+        "id": "men-formal",
+        "label": "Formal",
+        "to": "/products/men/formal",
+        "children": [
+          { "id": "men-formal-shirt", "label": "Shirt", "to": "/products/men/formal/shirt" },
+          { "id": "men-formal-pant", "label": "Pant", "to": "/products/men/formal/pant" }
+        ]
+      },
+      {
+        "id": "men-casual",
+        "label": "Casual",
+        "to": "/products/men/casual",
+        "children": [
+          { "id": "men-casual-tshirt", "label": "T-Shirt", "to": "/products/men/casual/t-shirt" },
+          { "id": "men-casual-jeans", "label": "Jeans", "to": "/products/men/casual/jeans" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "women",
+    "label": "Women",
+    "to": "/products/women",
+    "children": [
+      {
+        "id": "women-formal",
+        "label": "Formal",
+        "to": "/products/women/formal",
+        "children": [
+          { "id": "women-formal-top", "label": "Top", "to": "/products/women/formal/top" },
+          { "id": "women-formal-shirt", "label": "Shirt", "to": "/products/women/formal/shirt" }
+        ]
+      },
+      {
+        "id": "women-traditional",
+        "label": "Traditional",
+        "to": "/products/women/traditional",
+        "children": [
+          { "id": "women-traditional-saree", "label": "Saree", "to": "/products/women/traditional/saree" },
+          { "id": "women-traditional-suit", "label": "Suit", "to": "/products/women/traditional/suit" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "child",
+    "label": "Child",
+    "to": "/products/child",
+    "children": [
+      { "id": "child-boys", "label": "Boys", "to": "/products/child/boys" },
+      { "id": "child-girls", "label": "Girls", "to": "/products/child/girls" }
+    ]
+  },
+  {
+    "id": "Eid_2026",
+    "label": "Eid 2026",
+    "to": "/products/child"
+  }
+]
